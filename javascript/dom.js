@@ -41,3 +41,14 @@ for(let i = 0; i < pAll.length; i++){
 const sectionB2 = document.getElementById('b');
 const pSectionB2 = sectionB2.querySelector('p');
 pSectionB2.style.color = 'white';
+
+// manipulation Dom
+// const sectionA = document.querySelector('#a');
+// sectionA.style.color = 'salmon';
+// sectionA.innerHTML = "Mencoba manipulation Dom";
+
+// const a = document.querySelector('section#a a');
+// a.setAttribute('id', 'link');
+// a.removeAttribute('href');
+
+document.body.classList.toggle('biru-muda');
