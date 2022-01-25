@@ -19,3 +19,7 @@ body {
 .biru-muda {
     background-color: aqua;
 }
+
+section#b ul li:nth-child(1) {
+    color: purple;
+}
